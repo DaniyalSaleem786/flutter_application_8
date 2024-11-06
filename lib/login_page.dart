@@ -78,21 +78,21 @@ class LoginPage extends StatelessWidget {
               height: 30,
             ),
             Container(
-              height: 40,
+              height: 50,
               width: double.infinity,
               decoration: BoxDecoration(
                   gradient: const LinearGradient(
                       colors: [Colors.cyan, Colors.purple]),
-                  borderRadius: const BorderRadius.all(Radius.circular(20)),
-                  // boxShadow: [
-                  //   BoxShadow(
-                  //       color: Colors.cyanAccent,
-                  //       spreadRadius: 0.7,
-                  //       blurRadius: 1
-                  //       // spreadRadius: 1,
-                  //       // blurStyle: BlurStyle.normal,
-                  //       )
-                  // ],
+                  borderRadius: const BorderRadius.all(Radius.circular(25)),
+                  boxShadow: [
+                    BoxShadow(
+                        color: Colors.cyanAccent,
+                        spreadRadius: 0.3,
+                        blurRadius: 14
+                        // spreadRadius: 1,
+                        // blurStyle: BlurStyle.normal,
+                        )
+                  ],
                   border: Border.all(color: Colors.cyan)),
               child: const Center(
                 child: Text(
